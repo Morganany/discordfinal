@@ -31,7 +31,7 @@ client.distube = new DisTube(client, {
     leaveOnFinish: true,
     leaveOnStop: true,
     savePreviousSongs: false,
-    plugins: [new YtDlpPlugin()],
+    // plugins: [new YtDlpPlugin()],  // Hapus dulu jika error
     customFilters: {
         "nightcore": "aresample=48000,asetrate=48000*1.25",
         "vaporwave": "aresample=48000,asetrate=48000*0.8",
